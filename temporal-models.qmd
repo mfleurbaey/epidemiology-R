@@ -30,7 +30,7 @@ The integral for the exponential model is given by
 
 $y = y_0 e^{r_Et}$,
 
-where $y0$ is and $r$ are obtained via estimation. Let's simulate two curves by varying $r$ while fixing $y0$ and varying the latter while fixing $r_E$. We produce the two plots in *ggplot* and add the predicted curve using the \`stat_function\`. But first, we need to define values for the two model parameters. Further modifications to these values will be handled directly in the simulation (e.g. doubling infection rate, reducing initial inoculum by half, etc.).
+where $y_0$ is and $r$ are obtained via estimation. Let's simulate two curves by varying $r$ while fixing $y0$ and varying the latter while fixing $r_E$. We produce the two plots in *ggplot* and add the predicted curve using the \`stat_function\`. But first, we need to define values for the two model parameters. Further modifications to these values will be handled directly in the simulation (e.g. doubling infection rate, reducing initial inoculum by half, etc.).
 
 ```{r}
 #| warning: false
